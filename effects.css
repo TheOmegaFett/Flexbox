@@ -14,3 +14,29 @@ background-color: purple;
 transform: scale(2) translate(50px, 50px) rotate(45deg);
 
 }
+
+.parent-card {
+    margin-top: 50px;
+    display:flex;
+    justify-content: center;
+}
+
+.card {
+border: 1px solid black;
+border-radius: 10px;
+box-shadow: 2px 2px 6px rgba(58, 50, 50, 255), 6px 6px 10px rgba(32, 32, 32, 150);
+    overflow: hidden;
+    transition: .25s;
+
+}
+
+.card:hover {
+transform: scale(1.12);
+box-shadow: 0px 5px 10px rgba(0, 0, 0, 255), 0px 9px 14px rgba(32, 32, 32, 150);
+}
+
+
+img {
+width: 300px;
+
+}
